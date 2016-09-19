@@ -1,1 +1,3 @@
-# Predicting-Sucess-on-DonorsChoose
+# Predicting Sucess on DonorsChoose
+
+For my third project at Metis, I used the dataset from the [2014 KDD Cup](https://www.kaggle.com/c/kdd-cup-2014-predicting-excitement-at-donors-choose) on Donorschoose.org, a non-profit where teachers can request needed materials and experiences for their classrooms, from computers to crayons to field trips, and donors from around the world can find worthwhile projects and fund them. I built and optimized random forest models using grid search to predict which projects would be classified as "exciting" (fully funded and a few other criteria)), selecting a final model with an AUC of .64. In my model iteration process, I tried undersampling and penalizing false negatives to help correct for the class imbalance of approximately 19:1. 
